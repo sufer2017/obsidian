@@ -57,7 +57,9 @@ echo -e "\n## [$DATE] learn | $BASENAME\n- Source: $URL\n- Type: $TYPE" >> "$REP
 # commit + push
 git add -A
 git commit -m "learn: $BASENAME" --quiet 2>/dev/null || true
-git push --quiet 2>/dev/null || true
+if ! git push --quiet 2>/dev/null; then
+    echo "⚠ push 失败，内容已保存到本地。请检查 git credentials。"
+fi
 
 # 重建上下文缓存
 bash "$REPO_DIR/bin/build-context.sh" 2>/dev/null || true
