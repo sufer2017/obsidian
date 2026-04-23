@@ -41,6 +41,9 @@ cookies.json
 .raw/.watcher-stdout.log
 .raw/.watcher-stderr.log
 
+# Cache (server-side, rebuilt hourly)
+.cache/
+
 # Personal files dropped into vault root by Obsidian (don't commit these)
 WIKI*.md
 PROMPT.md
