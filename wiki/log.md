@@ -25,6 +25,20 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-04-18] ingest | xhs-claude-skills GitHub Repository
+- Type: source ingest
+- Source: `.raw/xhs-claude-skills-github.md`
+- URL: https://github.com/chenxiachan/xhs-claude-skills
+- Pages created: [[xhs-claude-skills]], [[chenxiachan]], [[Xiaohongshu Content Extraction]], [[Local Whisper Transcription]], [[Peter Thiel Note Style]], [[XHS Cover Generation]], [[Cookie-Based Web Authentication]], [[xhs-claude-skills-github]]
+- Key finding: Claude Code plugin for converting XHS posts to Obsidian notes. Cookie-based extraction, local Whisper transcription, Peter Thiel contrarian note style. 4 skills: /xhs, /xhs-batch, /xhs-analyze, /xhs-cover.
+
+## [2026-04-18] ingest | ccstatusline GitHub Repository
+- Type: source ingest
+- Source: `.raw/ccstatusline-github.md`
+- URL: https://github.com/sirmalloc/ccstatusline
+- Pages created: [[ccstatusline]], [[Matthew Breedlove]], [[Status Line Widgets]], [[Terminal UI Configuration]], [[Powerline Rendering]], [[Claude Code CLI Ecosystem]], [[ccusage]], [[ccstatusline-github]]
+- Key finding: 7.8k-star TypeScript tool for Claude Code CLI status line customization. Modular widget system, React+Ink TUI, Powerline rendering, zero-config defaults.
+
 ## [2026-04-08] save | claude-obsidian v1.4 Release Session
 - Type: session
 - Location: wiki/meta/claude-obsidian-v1.4-release-session.md

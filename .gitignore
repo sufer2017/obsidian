@@ -32,6 +32,14 @@ node_modules/
 .env
 .env.local
 *.local.md
+cookies.json
+
+# Watcher temp files
+.raw/.processed
+.raw/.ingest-queue
+.raw/.ingest-log
+.raw/.watcher-stdout.log
+.raw/.watcher-stderr.log
 
 # Personal files dropped into vault root by Obsidian (don't commit these)
 WIKI*.md

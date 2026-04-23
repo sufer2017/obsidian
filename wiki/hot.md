@@ -19,7 +19,7 @@ related:
 Navigation: [[index]] | [[log]] | [[overview]]
 
 ## Last Updated
-2026-04-08: v1.4.1 hotfix shipped, plugin confirmed installed and enabled
+2026-04-18: Ingested xhs-claude-skills (github.com/chenxiachan/xhs-claude-skills). 8 wiki pages created.
 
 ## Plugin State
 - **Version**: 1.4.1 (installed, enabled, user scope)
@@ -57,6 +57,24 @@ There is no `claude plugin install github:owner/repo` shortcut. Both steps are r
 
 ## Ecosystem Research (Done 2026-04-08)
 16+ Claude + Obsidian projects mapped. Full feature matrix at [[claude-obsidian-ecosystem]]. Prioritized backlog at [[cherry-picks]]. Top competitors: [[Ar9av-obsidian-wiki]] (multi-agent + delta tracking), [[rvk7895-llm-knowledge-bases]] (multi-depth query), [[ballred-obsidian-claude-pkm]] (goal cascade + auto-commit), [[kepano-obsidian-skills]] (authoritative Obsidian skills from Obsidian's own creator).
+
+## Latest Ingest: xhs-claude-skills (2026-04-18)
+- Claude Code plugin: XHS posts → structured Obsidian notes
+- Creator: [[chenxiachan]]
+- 4 skills: /xhs (single), /xhs-batch (bulk), /xhs-analyze (AI analysis), /xhs-cover (cover images)
+- [[Xiaohongshu Content Extraction]]: cookie-based, single HTTP request, parses __INITIAL_STATE__
+- [[Local Whisper Transcription]]: ffmpeg + mlx-whisper on Apple Silicon, fully local
+- [[Peter Thiel Note Style]]: contrarian insight → core argument → relevance → dig-or-skip (max 6 visible lines)
+- [[XHS Cover Generation]]: 6 styles (morandi/academic/dark/mint/sunset/bw), 1080x1440, Playwright
+
+## Previous Ingest: ccstatusline (2026-04-18)
+- 7.8k-star TypeScript CLI tool for customizing Claude Code's terminal status line
+- Creator: [[Matthew Breedlove]] (@sirmalloc)
+- Modular [[Status Line Widgets]]: model, git, tokens, environment, custom commands
+- Interactive [[Terminal UI Configuration]] built with React + Ink
+- [[Powerline Rendering]] with arrow separators and multi-line support
+- Part of [[Claude Code CLI Ecosystem]] alongside ccusage, tweakcc, codachi
+- Zero-config: `npx -y ccstatusline@latest`
 
 ## Active Threads
 - v1.5.0 backlog: `/adopt` command, vault graph analysis in wiki-lint, semantic search via qmd, Marp output
