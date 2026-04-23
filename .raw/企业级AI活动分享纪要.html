@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>企业级AI活动分享纪要</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif;background:#0f172a;color:#e2e8f0;line-height:1.7;font-size:15px}
+</style>
+</head>
+<body>
+
+<header class="header">
+<div class="header-inner">
+<div class="header-badge">内部学习资料</div>
+<h1>企业级AI活动分享纪要</h1>
+<p class="header-sub">From Data To AI — Build Your Real Agent Team</p>
+<div class="header-meta">
+<span>时间：<strong>2026年4月22日</strong></span>
+<span>分享方：<strong>ThinkingAI、MiniMax、飞书、网易机会、AWS</strong></span>
+</div>
+</div>
+</header>
+
+<main class="content">
+
+<section id="s1">
+<h2>一、活动总览与核心洞察</h2>
+<p>本次活动由 ThinkingAI 主办，围绕"企业级Agent落地"主题，汇聚了模型层（MiniMax）、协作办公层（飞书）、知识库/客服层（网易机会）、基础设施层（AWS）以及Agent平台层（ThinkingAI）的头部玩家，展示了一个完整的Agent生态协作图谱。</p>
+<div class="highlight"><strong>一句话总结</strong>：Agent时代不是单点工具的竞争，而是"数据 × 模型 × 平台 × 协作"的系统性工程。</div>
+</section>
+
+<section id="s2">
+<h2>二、各演讲方核心观点</h2>
+
+<h3 id="p1">ThinkingAI CEO Paris 开场 — 企业级Agent的顶层思考</h3>
+<h4>核心命题</h4>
+<div class="highlight">"我们的Agent能沉淀什么，可以跟别的Agent互通？"</div>
+<h4>从"数据时代"到"智能时代"的范式转移</h4>
+<table><thead><tr><th>维度</th><th>数据时代</th><th>智能时代</th></tr></thead><tbody>
+<tr><td><strong>道</strong></td><td>数据意识</td><td>AI认知（AI的本质是什么？协作主体是否切换？）</td></tr>
+<tr><td><strong>术</strong></td><td>分析方法</td><td>人机协作方法论（知识编码、人机分工、持续迭代）</td></tr>
+<tr><td><strong>器</strong></td><td>ThinkingEngine</td><td>从通用LLM到Agent平台（能否形成业务闭环？）</td></tr>
+</tbody></table>
+
+<h4>企业级Agent的三大能力</h4>
+<ol>
+<li><strong>感 — 全域感知</strong>
+<ul><li>结构化数据（用户行为数据）</li><li>非结构化数据（用户反馈、会议记录、企业知识库）</li><li>多模态数据（图片、音频、视频）</li></ul></li>
+<li><strong>知 — 深度理解</strong>
+<ul><li>行业领域的专业知识</li><li>企业内部隐性知识、指标口径、业务上下文、竞品信息</li><li>预制100+专家Skill</li></ul></li>
+<li><strong>行 — 行动闭环</strong>
+<ul><li>多Agent协作</li><li>分析 → 决策 → 执行 → 验证</li><li>7×24小时工作，直接交付业务结果</li></ul></li>
+</ol>
+
+<h4>Agent团队成员定位</h4>
+<table><thead><tr><th>Agent角色</th><th>定位</th><th>能力</th></tr></thead><tbody>
+<tr><td><strong>数据分析Agent</strong></td><td>团队的"眼睛"</td><td>自然语言查询、秒级响应、自动归因分析</td></tr>
+<tr><td><strong>智能运营Agent</strong></td><td>团队的"手"</td><td>自动设计干预策略、锁定目标人群、直接执行</td></tr>
+<tr><td><strong>A/B实验Agent</strong></td><td>团队的"裁判"</td><td>自动设置对照组、科学验证效果</td></tr>
+<tr><td><strong>自主创建Agent</strong></td><td>你来定义</td><td>无代码搭建、自定义逻辑</td></tr>
+</tbody></table>
+<p><strong>即将发布</strong>：数据采集Agent（5月）、广告投放Agent（6月）</p>
+
+<h4>人机分工边界</h4>
+<ul><li><strong>人负责</strong>：感知判断、创新方向、品质追求、对细节的执念</li><li><strong>Agent负责</strong>：7×24感知、数据分析、策略执行、效果验证</li></ul>
+
+<h3 id="p2">ThinkingAI CTO 周津 — 产品架构与Agent落地实践</h3>
+<h4>核心洞察</h4>
+<div class="highlight">"让Agent学会协作，才是企业级Agent真正要解决的问题。"</div>
+<p>过去几十年我们解决了"人的协作"（工作流/SOP、跨部门协作、组织流程），现在每个人有了一个Agent（客服Agent、运营Agent、投放Agent、分析Agent），但Agent之间存在<strong>孤岛·断点·无缝隙</strong>的问题。</p>
+
+<h4>从"装个Agent"到"用好Agent"的四重奏</h4>
+<ol>
+<li><strong>业务层卡点</strong> — Agent孤立无协作，每个Agent各行其是缺少协同</li>
+<li><strong>数据汇聚卡点</strong> — 多模态全域数据汇聚难（行为·交互·多模态，Agent缺的是眼睛）</li>
+<li><strong>知识蒸馏卡点</strong> — 数据到知识的蒸馏难（需要完整的采集·治理·资产体系）</li>
+<li><strong>安全卡点</strong> — 安全治理缺位（权限·脱敏·合规·审计一个都不能少）</li>
+</ol>
+
+<h4>Agent的能力上限，由数据决定</h4>
+<div class="highlight">"大模型给了Agent推理的能力，工程框架给了Agent执行能力，但Agent要'做对了'，靠的是对业务数据的深度理解。"</div>
+<ul><li><strong>没有数据的Agent</strong> = 通用聊天机器人</li><li><strong>有数据的Agent</strong> = 真正能驱动业务的专家</li></ul>
+
+<h4>Agent智能监控与评测体系</h4>
+<p><strong>三维诊断</strong>（贵·慢·错）：</p>
+<ul><li><strong>贵</strong> = Token成本（识别无效Token消耗）</li><li><strong>慢</strong> = 执行延迟（定位链路瓶颈）</li><li><strong>错</strong> = 幻觉逻辑（过度思考 + 无效循环 + 上下文遗忘）</li></ul>
+<p><strong>评测能力</strong>：</p>
+<ul><li>Agent执行沙箱（隔离环境安全试跑，不影响生产）</li><li>Agent A/B灰度能力（新旧Agent可灰度释放对比）</li><li>数据准确性与口径一致性（同样的问题要有同样的答案）</li><li>幻觉检测（防止Agent胡说八道）</li></ul>
+<div class="highlight"><strong>关键认知</strong>：Agent上线不是终点，持续运营与治理，才决定它能跑多远。</div>
+
+<h3 id="p3">MiniMax 彭磊 — 大模型时代与AI游戏产业的创新应用与实践</h3>
+<h4>MiniMax AGI愿景与多模态深耕</h4>
+<table><thead><tr><th>模型类型</th><th>演进路线</th></tr></thead><tbody>
+<tr><td><strong>大语言模型</strong></td><td>abab1 → abab5.5 → abab6.0(MoE) → Text-01 → M1 → M2 → M2.1 → M2-her → <strong>M2.7</strong></td></tr>
+<tr><td><strong>视频生成模型</strong></td><td>Hailuo 01 → Hailuo 02 → <strong>Hailuo 2.3</strong></td></tr>
+<tr><td><strong>音频模型</strong></td><td>Speech-01 → Music-01 → Speech-02 → Music-1.5 → Speech-2.5 → Music-2.0 → <strong>Speech-2.6/2.8</strong>, <strong>Music-2.5+</strong></td></tr>
+<tr><td><strong>产品发布</strong></td><td>开放平台 → Talkie/星野 → Hailuo视频agent → MiniMax Audio → MiniMax Agent 1.0 → <strong>MiniMax Agent 2.0桌面版</strong> → <strong>MaxClaw</strong></td></tr>
+</tbody></table>
+
+<h4>游戏行业开发痛点与Agent解决方案</h4>
+<table><thead><tr><th>痛点</th><th>Agent解决方案</th></tr></thead><tbody>
+<tr><td>人工测试覆盖不足</td><td>自动化QA与回归测试（全天候高并发模拟）</td></tr>
+<tr><td>文档"腐烂"</td><td>动态文档与知识库（全局语义对比，检查潜在逻辑冲突）</td></tr>
+<tr><td>本地化适配困难</td><td>上下文感知翻译 & UI自动适配</td></tr>
+<tr><td>游戏经济难平衡</td><td>多智能体仿真 & 数据分析（模拟不同用户群体行为，自动生成平衡调整方案）</td></tr>
+<tr><td>资产治理缺失</td><td>百万资产全生命周期管理（AI自动扫描资产内容并生成标签）</td></tr>
+</tbody></table>
+
+<h4>游戏驾玩与辅助 Copilot</h4>
+<ul><li><strong>战术辅助</strong>：实时分析当前战术局势</li><li><strong>任务引导</strong>：能理解玩家行为的向导</li><li><strong>情绪陪伴</strong>：在游戏世界里的"伙伴角色扮演"</li></ul>
+
+<h4>AI原生游戏: 从"脚本驱动"到"生成驱动"的范式转移</h4>
+<ul>
+<li><strong>故事与涌现导向 — 天道</strong>：每一个修仙者都是一个独立的AI Agent，根据自身性格、记忆和修仙状态，在"天道"法则下自主行动。没有预设任务流程，NPC行为根据环境法则实时计算。</li>
+<li><strong>角色扮演导向 — SillyTavern</strong>：针对故事与角色扮演优化的LLM开发调试工作台，支持深度角色塑造、视觉与听觉扩展、长短期记忆系统、世界观管理。</li>
+</ul>
+
+<h4>MiniMax Speech 2.8: 赋予AI语音"人的温度"</h4>
+<ul><li><strong>超低延时</strong>：延迟降低至250ms以下</li><li><strong>更高自然度</strong>：高还原度音色复刻，保留口音、口癖等个性化特征</li><li><strong>非标格式无障碍</strong>：多语言、网址、邮箱、电话、日期、金额等非标文本自动转换</li><li><strong>覆盖40+语种</strong>：已在全球实现商业化落地</li></ul>
+
+<h4>MiniMax Hailuo 2.3: 视频 + Agent工作流</h4>
+<ul><li><strong>OpenClaw总指挥</strong>：理解需求、拆解任务、调度资源</li><li><strong>Hailuo AI制作执行团队</strong>：把文字变成画面、把画面连成视频</li><li>应用场景: 批量生产营销广告内容、驱动UGC生成、自动化精准投放</li></ul>
+
+<h4>迈向"全域智能"游戏世界</h4>
+<ul><li>Agentic游戏环境: 从"脚本驱动"到"社会性涌现"</li><li>个性化定制与共创: 从"消费者"到"世界构建者"</li><li>技术与人的共进: 从"编剧"到"世界观架构师"</li></ul>
+
+<h3 id="p4">飞书 黄超 — 从工具到伙伴：Agent时代的新范式</h3>
+<h4>数字化员工Agent的能力进化路径</h4>
+<ol><li>从机械执行</li><li>到流程推进</li><li>到独立完成一个岗位的工作内容</li><li><strong>到专家级别（有企业知识资产）</strong></li></ol>
+
+<h4>组织落地建议 1：AI 三关一部曲</h4>
+<p>入池 → 破局 → 点裂</p>
+
+<h4>组织落地建议 2：分鉴行业案例，激发业务创新</h4>
+<p>各行业AI应用案例：研发生产、销售管理、门店管理、市场营销、供应链、渠道管理</p>
+
+<h4>Skill：心智的载体——内部的知识+流程+工具</h4>
+
+<h4>组织落地建议</h4>
+<div class="highlight">"不要一味追求ROI计算，拥抱变化勇敢的人才需要。"</div>
+<ul><li>AI创新处于曲线起点（低样本、高波动），传统业务处于曲线末端（高样本、高精度）</li><li><strong>以"长期战略价值"代替"短期会计分析"：先干，才是最大的ROI</strong></li></ul>
+
+<h4>需求洞察方法论</h4>
+<div class="highlight">"不要问'你想怎么用AI'，要问'你日常最耗时、最重复的工作是什么'。"</div>
+<p>调研模板要素：</p>
+<ul><li>场景描述（如"每次拜访客户后要花2小时查资料"）</li><li>频次：每周3次</li><li>单次耗时：2小时</li><li>期望AI达到的效果：压缩到10分钟/次</li></ul>
+<p><strong>飞书内部经验</strong>：开放"AI需求许愿池"后，13天收到<strong>215+条需求</strong>。</p>
+
+<h3 id="p5">网易机会 蔡总 — 知识库与AI自迭代</h3>
+<h4>All IN AI：AI Native 组织 VS AI Native 产品</h4>
+<p>AI Native组织与AI Native产品的飞轮迭代</p>
+
+<h4>个人 Agent vs 企业级 Agent</h4>
+<p>从"辅助"到"舵手"</p>
+
+<h4>网易的品味：重新定义网易人才观</h4>
+<h4>网易品味: TASTED人才模型</h4>
+<table><thead><tr><th>代号</th><th>维度</th><th>英文</th><th>一句话定义</th></tr></thead><tbody>
+<tr><td>T</td><td>审美力</td><td>Taste</td><td>识别"什么是好"并说清依据，把抽象好感落地可改进的方案与交付</td></tr>
+<tr><td>A</td><td>洞察力</td><td>Awareness</td><td>透过现象看本质，见人之未见，言之有据</td></tr>
+<tr><td>S</td><td>标准力</td><td>Standard</td><td>Spec first: 标尺、一致性、规范驱动行为</td></tr>
+<tr><td>T</td><td>结构力</td><td>Tectonics</td><td>复杂事说得清、画得开、路径可执行</td></tr>
+<tr><td>E</td><td>判断力</td><td>Evaluation</td><td>排除噪音、聚焦关键、敢取舍、敢拍板</td></tr>
+<tr><td>D</td><td>自驱力</td><td>Drive</td><td>热爱与好奇驱动，不设边界，持续突破与迭代</td></tr>
+</tbody></table>
+
+<h4>AI需求漏斗: 业务侧需求分布</h4>
+<table><thead><tr><th>需求类型</th><th>数量</th><th>典型场景</th></tr></thead><tbody>
+<tr><td>资讯查找</td><td>54</td><td>行业动态追踪、政策法规速报、竞品信息聚合</td></tr>
+<tr><td>数据处理</td><td>49</td><td>报表自动生成、数据清洗转换、异常数据预警</td></tr>
+<tr><td>策略建议</td><td>37</td><td>定价策略分析、用户分群建议、促销方案推荐</td></tr>
+<tr><td>内容生成</td><td>34</td><td>营销文案生成、产品描述撰写、邮件模板生成</td></tr>
+<tr><td>协作提效</td><td>33</td><td>任务自动分配、进度追踪汇报、跨部门信息同步</td></tr>
+</tbody></table>
+
+<h4>构建+部门级+个人级 AI 应用架构</h4>
+<p>企业AI应用架构：原子级→个人级→部门级→企业级</p>
+
+<h4>方法论验证：当前头部游戏运营营销 AI 效果成果</h4>
+<p>游戏运营营销AI效果提升：营销效率提升 51%</p>
+
+<h4>知识库为研发赋能: "摸鱼帅"案例</h4>
+<ul>
+<li>沉淀 <strong>8w+条FAQ知识点</strong></li>
+<li>问题解决率 <strong>70%+</strong></li>
+<li>覆盖 <strong>8个部门</strong></li>
+<li>效果提效:<ul><li>客服团队合计节省2.5人力</li><li>技术支持团队节省0.5人力</li><li>研发团队节省1.7人力</li></ul></li>
+</ul>
+
+<h4>智能Agent</h4>
+<ul><li>覆盖在线、企微、外呼、Agent交付等多种问题接入场景</li><li>单次接入响应时间从20分钟压缩到10分钟</li><li>客服借助Agent能力处理更复杂问题（工单升级率从25.63%降至X%）</li></ul>
+
+<h4>多渠道玩家自动化运营场景</h4>
+<ul>
+<li><strong>玩家OneID拼图</strong>：数数科技ID、微信openid、游戏角色ID、绑定手机号、公司唯一ID、网易通行证ID</li>
+<li><strong>多源数据输入</strong>：端内数据、用户行为、玩家画像、客服对话、运营知识库</li>
+<li><strong>策略引擎</strong>：企业Agent理解数据 → 部门Skill生成运营策略 → 客户端触动作建议 → 多渠道触达 → 数据收集</li>
+</ul>
+
+<h4>OKR Skill：AI 辅助目标管理</h4>
+<p>AI协助OKR审核、质检对齐</p>
+
+<h4>关键洞察</h4>
+<ol><li><strong>知识图谱需要加上一个能分辨对错信息的校准</strong></li><li><strong>AI自迭代</strong>：如果没有被很好地回答，会去自动找知识</li><li><strong>知识库建立是重中之重，训练伙伴飞</strong></li></ol>
+
+<h3 id="p6">AWS 徐勤坚 — Agent定义游戏与基础设施</h3>
+<h4>亚马逊云科技2026年游戏行业 Solution Map</h4>
+<p>Build（设计研发）→ Run（托管运维）→ Grow（运营发行）</p>
+
+<h4>Agent会如何来定义游戏？</h4>
+<p><strong>案例1: 植物大战小鸡猪</strong></p>
+<ul><li>尝试用Agent直接做一个大逻辑的Agent来生成主角</li><li>发现对于美术的要求特别高</li><li><strong>退而求其次</strong>：可以生成背景，批量生成背景</li></ul>
+
+<p><strong>案例2: Zenjoy（休闲游戏）</strong></p>
+<ul><li>遇到的问题是关卡测试的效率</li><li>通过人测试费时，自动化脚本覆盖也不全</li><li><strong>解决方案</strong>：训练出一个能玩休闲游戏的Agent，能代表玩家的真实水平</li><li>产品组的可以做更大胆的尝试</li></ul>
+
+<h4>客户案例：Rovio 用 AI Agent 重新定义游戏资产创作</h4>
+<p>AI驱动生成式创作工作流，减少80%季票资产制作时间，2分钟即可产出</p>
+
+<h4>客户案例：Zenjoy 使用 AI Bot Agent 将休闲游戏关卡测试效率提升20倍</h4>
+<p>Game AI Bot将关卡平均测试时间从3-4周缩短到2-4小时，实现10-20倍提升</p>
+
+<h4>企业级 AI 架构与目标</h4>
+<p>AI基础设施→模型→数据知识→Agentic平台→Agents（衡量安全/效率/性能/成本）</p>
+
+<h4>从PoC到生产级"鸿沟"</h4>
+<p>从PoC到生产级AI Agent，跨越性能、可扩展性、安全、治理四大挑战</p>
+
+<h4>Agent不再只是"能对话的NPC"</h4>
+<div class="highlight">而是"会记住你、会成长、会做决策的数字角色"。</div>
+
+<p><strong>三个前沿案例</strong>：</p>
+<table><thead><tr><th>案例</th><th>公司</th><th>亮点</th></tr></thead><tbody>
+<tr><td>Courtroom Chaos</td><td>Amber Studios x Amazon Luna</td><td>Snoop Dogg作为AI法官，基于Claude + Nova模型，语音交互 + 实时图像生成</td></tr>
+<tr><td>AI原生游戏</td><td>Exists</td><td>Agentic AI搭建在亚马逊云，通过自然语言描述，5分钟内生成完整可玩3D多人游戏</td></tr>
+<tr><td>AneeMate</td><td>QORPO</td><td>Amazon Bedrock搭建AI Agent，实时分析Kinesis玩家数据，动态生成个性化宠物</td></tr>
+</tbody></table>
+<div class="highlight"><strong>趋势判断</strong>：Agent正在成为游戏世界的原住民。</div>
+
+<h4>使用 Amazon Bedrock 搭建自定义 AI Agent</h4>
+<table><thead><tr><th>维度</th><th>关键能力</th></tr></thead><tbody>
+<tr><td><strong>工具与记忆增强</strong></td><td>记忆、网关、浏览器工具、代码解释器</td></tr>
+<tr><td><strong>安全大规模部署</strong></td><td>运行时、身份</td></tr>
+<tr><td><strong>获取运营洞察</strong></td><td>可视监控</td></tr>
+</tbody></table>
+<ul><li><strong>关键协议</strong>：MCP、A2A</li><li><strong>主流框架</strong>：Claude Agent SDK、CrewAI、Google ADK、LangGraph、LlamaIndex、OpenAI Agents SDK、Strands Agents</li></ul>
+
+<h4>ThinkingAI x AWS 联合方案</h4>
+<p>稳数据流入 → Agent分析 → Agent决策 → 自动执行 → 效果数据回流</p>
+<ul>
+<li>基于亚马逊云科技云原生方案架构（S3存储、EKS计算、Bedrock、AgentCore）</li>
+<li>性能提升50%+，成本降低40%</li>
+<li>全球多区域集群（北美/欧洲/亚太），满足GDPR等合规要求</li>
+<li>模型能力: 200+模型，运行时/记忆/网关</li>
+<li>Spot实例: 计算成本降至1/5</li>
+</ul>
+
+<h4>Agentic LiveOps 案例</h4>
+<table><thead><tr><th>公司</th><th>应用场景</th></tr></thead><tbody>
+<tr><td><strong>沐瞳</strong></td><td>全域分析评论</td></tr>
+<tr><td><strong>Krafton</strong></td><td>电竞直播，沉浸式体验</td></tr>
+<tr><td><strong>JoyCastle</strong></td><td>素材管理Agent，多模态embedding</td></tr>
+</tbody></table>
+</section>
+
+<section id="s3">
+<h2>三、Andrew的思考与我们的启发</h2>
+<h4>Agent角色分工思考</h4>
+<div class="highlight">"我们的Agent，有哪些是来提问的，哪些来干活的，哪些来验证的？"</div>
+<table><thead><tr><th>类型</th><th>作用</th><th>例子</th></tr></thead><tbody>
+<tr><td><strong>提问型Agent</strong></td><td>发现问题、提出假设、触发分析</td><td>数据分析Agent（异常检测）、需求洞察Agent</td></tr>
+<tr><td><strong>干活型Agent</strong></td><td>执行任务、自动操作、交付结果</td><td>智能运营Agent、广告投放Agent、内容生成Agent</td></tr>
+<tr><td><strong>验证型Agent</strong></td><td>A/B测试、效果评估、幻觉检测</td><td>A/B实验Agent、监控评测Agent、口径一致性Agent</td></tr>
+</tbody></table>
+
+<h4>生产系统稳定性保障</h4>
+<div class="highlight">"智能体运行时要保证生产系统中一个挂了不会影响全局。"</div>
+<ul><li>需要设计Agent的<strong>熔断机制</strong>和<strong>降级策略</strong></li><li>参考AWS的架构: 隔离环境安全试跑 → 灰度释放 → 全量上线</li><li>每个Agent应该有独立的运行时和可观测监控</li></ul>
+
+<h4>A2A 协议选型思考：MCP vs Google A2A</h4>
+<ul>
+<li><strong>MCP（Model Context Protocol）</strong>：Anthropic推出的开放标准，侧重Agent与外部工具/数据源的连接，已被AWS、ThinkingAI等广泛采纳，生态活跃度高</li>
+<li><strong>Google A2A（Agent-to-Agent）</strong>：Google主导的Agent间通信协议，侧重多Agent之间的协作编排，飞书、网易机会在探索适配场景</li>
+</ul>
+<p><strong>当前判断</strong>：</p>
+<ol>
+<li>两者不是互斥关系，而是互补 — MCP解决"Agent如何调用工具"，A2A解决"Agent如何与其他Agent对话"</li>
+<li>短期优先建议<strong>以MCP为主</strong>接入数据源和工具链，同时<strong>关注A2A进展</strong>为未来的多Agent编排做准备</li>
+<li>企业自建Agent平台时，抽象一层协议通道层，避免被单一协议锁定</li>
+</ol>
+
+<h4>关键趋势判断</h4>
+<ol>
+<li><strong>数据资产 > 模型能力</strong>：多家共识 — Agent的上限由数据决定，不是由模型决定</li>
+<li><strong>多Agent协作 > 单Agent能力</strong>：企业级Agent的核心问题是协作，不是单个Agent的IQ</li>
+<li><strong>知识库是基础设施</strong>：网易、ThinkingAI都强调知识库建立是重中之重</li>
+<li><strong>人机分工要明确</strong>：人定目标和边界，Agent在边界内自主运行</li>
+<li><strong>从短期ROI到长期战略价值</strong>：AI创新初期不应过度追求精确ROI计算</li>
+</ol>
+</section>
+
+<section id="s4">
+<h2>四、可落地的行动建议</h2>
+
+<h4>短期 1-2周</h4>
+<ul>
+<li>盘点现有Agent，按照"提问/干活/验证"三分类梳理我们现有的Agent</li>
+<li>建立Agent监控看板，参考ThinkingAI的三维诊断（贵/慢/错），定义我们的Agent健康度指标</li>
+<li>知识库现状评估，评估现有知识库的覆盖度、准确性、更新机制</li>
+</ul>
+
+<h4>中期 1-2月</h4>
+<ul>
+<li>设计Agent协作流程，明确多个Agent之间的数据流、触发条件和异常处理</li>
+<li>建立Agent沙箱环境，实现隔离测试 → 灰度发布 → 全量上线的流程</li>
+<li>启动"AI需求许愿池"，参考飞书做法，收集团队内部最耗时、最重复的日常工作</li>
+</ul>
+
+<h4>长期 3-6月</h4>
+<ul>
+<li>搭建企业级知识图谱，加入信息校准能力，实现AI自迭代</li>
+<li>评估多模态Agent能力，结合业务场景，探索视频/音频/图像Agent的应用</li>
+<li>建立Agent治理体系，包括权限管理、合规审计、幻觉检测、效果评估</li>
+</ul>
+</section>
+
+<section id="s5">
+<h2>五、附录：原始Slides索引</h2>
+<table><thead><tr><th>演讲者</th><th>Slides范围</th><th>关键页</th></tr></thead><tbody>
+<tr><td><strong>ThinkingAI Paris</strong></td><td>IMG_0544 - IMG_0555</td><td>0544(封面)、0547(三大能力)、0548(核心特征)、0549(Agent团队成员)、0553(人机分工)</td></tr>
+<tr><td><strong>ThinkingAI 周津</strong></td><td>IMG_0556 - IMG_0569</td><td>0556(四重奏)、0557(数据决定上限)、0565(智能监控)、0568(开放生态)</td></tr>
+<tr><td><strong>MiniMax 彭磊</strong></td><td>IMG_0570 - IMG_0583</td><td>0570(AGI愿景)、0572(开发痛点)、0573(游戏Copilot)、0574(AI原生游戏)、0578(视频+Agent)</td></tr>
+<tr><td><strong>飞书 黄超</strong></td><td>IMG_0585 - IMG_0598</td><td>0585(能力进化)、0590(ROI曲线)、0598(需求洞察方法论)</td></tr>
+<tr><td><strong>网易机会 蔡总</strong></td><td>IMG_0599 - IMG_0612</td><td>0595(TASTED模型)、0599(网易品味)、0600(需求漏斗)、0605(摸鱼帅)、0608(自动化运营)</td></tr>
+<tr><td><strong>AWS 徐勤坚</strong></td><td>IMG_0615 - IMG_0627</td><td>0615(封面)、0620(游戏案例)、0625(基础服务)、0627(联合方案)</td></tr>
+</tbody></table>
+</section>
+
+</main>
+</body>
+</html>

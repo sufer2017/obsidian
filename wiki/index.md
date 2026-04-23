@@ -23,7 +23,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-04-18 | Total pages: 42 | Sources ingested: 4
+Last updated: 2026-04-23 | Total pages: 43 | Sources ingested: 5
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
 
@@ -69,6 +69,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[claude-obsidian-ecosystem-research]] — 2026-04-08 | web research across 16+ repos | 8 wiki pages created
 - [[ccstatusline-github]] — 2026-04-18 | GitHub repo + docs | 7 wiki pages created
 - [[xhs-claude-skills-github]] — 2026-04-18 | GitHub repo + 4 SKILL.md files | 8 wiki pages created
+- [[2026-04-23 企业级AI活动分享纪要]] — 2026-04-23 | 企业级Agent落地活动纪要 | ThinkingAI/MiniMax/飞书/网易/AWS
 
 ---
 

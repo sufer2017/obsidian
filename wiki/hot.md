@@ -19,7 +19,17 @@ related:
 Navigation: [[index]] | [[log]] | [[overview]]
 
 ## Last Updated
-2026-04-18: Ingested xhs-claude-skills (github.com/chenxiachan/xhs-claude-skills). 8 wiki pages created.
+2026-04-23: Ingested 企业级AI活动分享纪要.html (enterprise AI event meeting notes). 1 wiki source page created.
+
+## Latest Ingest: 企业级AI活动分享纪要 (2026-04-23)
+- 2026-04-22 活动，ThinkingAI主办，5家分享：ThinkingAI、MiniMax、飞书、网易机会、AWS
+- 核心主题：企业级Agent落地
+- 关键趋势：数据资产>模型能力、多Agent协作>单Agent能力、知识库是基础设施
+- Agent三分类：提问型/干活型/验证型
+- MCP vs A2A：互补关系，短期MCP为主
+- 飞书需求洞察："不要问想怎么用AI，要问最耗时最重复的工作是什么"
+- 网易TASTED人才模型：审美/洞察/标准/结构/判断/自驱
+- MiniMax模型矩阵：M2.7(LLM)、Hailuo 2.3(视频)、Speech 2.8(语音)
 
 ## Plugin State
 - **Version**: 1.4.1 (installed, enabled, user scope)

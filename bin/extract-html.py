@@ -61,11 +61,13 @@ os.makedirs(os.path.dirname(filepath_out), exist_ok=True)
 with open(filepath_out, "w", encoding="utf-8") as f:
     f.write(content)
 
-# 同时保存原始 HTML 到 .raw/
+# 同时保存原始 HTML 到 .raw/（跳过已在 .raw/ 的文件）
 raw_dir = os.path.join(REPO, ".raw")
 os.makedirs(raw_dir, exist_ok=True)
-import shutil
-shutil.copy2(FILEPATH, os.path.join(raw_dir, os.path.basename(FILEPATH)))
+dst = os.path.join(raw_dir, os.path.basename(FILEPATH))
+if os.path.abspath(FILEPATH) != os.path.abspath(dst):
+    import shutil
+    shutil.copy2(FILEPATH, dst)
 
 print(filepath_out)
 print(f"已学习: {title}")

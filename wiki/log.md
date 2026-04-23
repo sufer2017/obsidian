@@ -25,6 +25,13 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-04-23] learn | 企业级AI活动分享纪要
+- Source: local HTML file (via WeChat → Hermes → PC)
+- Type: meeting-notes
+- 分享方: ThinkingAI、MiniMax、飞书、网易机会、AWS
+- 主题: 企业级Agent落地
+- Pages created: 1 (wiki/sources/2026-04-23 企业级AI活动分享纪要.md)
+
 ## [2026-04-18] ingest | xhs-claude-skills GitHub Repository
 - Type: source ingest
 - Source: `.raw/xhs-claude-skills-github.md`
